@@ -1,19 +1,8 @@
-highlighter: rouge
-github: [Repository metadata]
+#github: [Repository metadata]
 theme: jekyll-theme-minimal
 permalink: pretty
 baseurl: ''
 exclude: ['README.md']
-
-# Where things are
-source:       .
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
-collections:
-  posts:
-      output:   true
 
 # Handling Reading
 safe:                 false
@@ -23,16 +12,6 @@ keep_files:           [".git", ".svn"]
 encoding:             "utf-8"
 markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
 strict_front_matter: false
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
-
-# Plugins
-whitelist: []
-plugins:   []
 
 # Conversion
 markdown:    kramdown
