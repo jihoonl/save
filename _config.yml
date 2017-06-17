@@ -4,9 +4,9 @@ theme: jekyll-theme-minimal
 permalink: pretty
 baseurl: ''
 exclude: ['README.md']
+
 # Where things are
 source:       .
-destination:  ./_site
 plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
