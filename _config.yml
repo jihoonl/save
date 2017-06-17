@@ -1,15 +1,5 @@
-# Name of blog
-name: Jihoon Lee
-highlighter: rogue
-
-#Short description (goes below the title; it will also be used in the RSS feed)
-description: Profile
-url: "https://jihoonl.github.io"
-
-# Your name, as you want it to appear underneath each post and in the footer
-author: Jihoon Lee
-
-
-
+highlighter: rouge
+github: [Repository metadata]
 theme: jekyll-theme-minimal
 permalink: pretty
+baseurl: ''
