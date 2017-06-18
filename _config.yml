@@ -1,1 +1,16 @@
+#github: [Repository metadata]
+
 theme: jekyll-theme-minimal
+
+title: Jihoon Lee
+description: Freedom
+
+show_downloads: false
+
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: pretty
+
+markdown: kramdown
+highlighter: rouge
