@@ -1,18 +1,13 @@
-<header>
-  <h1>{{ site.title | default: site.github.repository_name }}</h1>
-  <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-  {% if site.github.is_project_page %}
-    <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-  {% endif %}
-
-  {% if site.github.is_user_page %}
-    <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-  {% endif %}
-</header>
-
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
@@ -29,11 +24,11 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
+
+  <div class="container sidebar-sticky">
+    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
